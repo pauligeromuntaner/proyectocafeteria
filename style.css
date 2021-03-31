@@ -36,6 +36,10 @@ body {
     color: var(--title-color);
 }
 
+a:hover{
+    color: var(--secondary-title-color);
+}
+
 /* ------------------------------------------------------------------------------------- */
 
 /* ------------------------------------------ Parte del texto principal */
