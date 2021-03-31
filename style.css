@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E1E7DD;
+}
+
+
+:root {
+    --title-color: #392B1B; 
+    --secondary-title-color: #774E33;
+}
+
+
+/* --------------------------------------------------------- Esto es la parte del header */
+
+.logotext {
+    display: inline;
+    margin-top: 4vh;
+    margin-left: 11vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: 30px;
+}
+.bar {
+    float: right;
+    padding-left: 10px;
+    margin-top: 2vh;
+    margin-right: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    outline: none;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------ Parte del texto principal */
+
+.tituloprincipal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--secondary-title-color);
+    margin-left: 39vh;
+    margin-top: 1vh;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+.parrafo1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 520px;
+    float: left;
+    text-align: left;
+    margin-left: 20vh;
+    margin-top: -5vh;
+    display: inline;
+    color: var(--title-color);
+    font-size: 18px;
+}
+
+.coffebeans {
+    position: absolute;
+    top: -12vh;
+    right: 9vh;
+    float: right;
+    width: 600px;
+}
+
+.botonmapa {
+    position: absolute;
+    bottom: 5vh;
+    left: 45vh;
+    width: 115px;
+    height: 35px;
+    background: none;
+    border: var(--secondary-title-color) solid 2px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: 1.2em;
+    box-shadow: 0px 4px 4px 0px #000000 25%;
+    outline: none;
+}
+
+.botonmapa:hover {
+    color: var(--secondary-title-color);
+}
+
+.textogaleria {
+    position : relative;
+    height: 67px;
+    top: 79vh;
+    background-color: var(--title-color);
+}
+
+.fontgaleria {
+    color: #E1E7DD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 65vh;
+    bottom: -4vh;
+}
+/* -------------------------------------------------------------------- */
+
+/* ---------------------------------------------------GALERIA IMAGENES  */
+
+ .galeriaimagenes{
+     position: relative;
+     top: 21vh;
+     margin-left: 4vh;
+     float: left;
+ }
+
+
+
+/* -------------------------------------------------------------------- */
+
+footer {
+    position: relative;
+    top: 158vh;
+    background-color: var(--title-color);
+    height: 150px;
+}
+
+.textfooter {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    outline: none;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: #E1E7DD;
+    padding-left: 35px;
+    font-size: 1.2rem;
+}
