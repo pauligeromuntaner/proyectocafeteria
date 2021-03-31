@@ -141,4 +141,20 @@ footer {
     color: #E1E7DD;
     padding-left: 35px;
     font-size: 1.2rem;
+    position: relative;
+    bottom: -8vh;
+    right: 28vh;
+}
+
+#twitter:hover {
+    color: #00BFFF;
+}
+#facebook:hover {
+    color: blue;
+}
+#whatsapp:hover {
+    color: green;
+}
+#telegram:hover {
+    color : #086A87;
 }
